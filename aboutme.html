@@ -5,13 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hey, I'm Sabrina:)</title>
-  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="./style/projects.css">
+  <link rel="stylesheet" href="./style/aboutme.css">
   <!-- CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<!-- Uncomment when adding script -->
-  <!-- <script src="./main.js" defer></script> -->
-
+  <!-- Font Awsome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
   <header class="cabecalho">
     <nav class="cabecalho-menu">
@@ -24,32 +26,76 @@
       <a class="cabecalho-menu-item" href="https://www.linkedin.com/in/sabrina-oliveira-a64b6391/"><img class="cabecalho-menu-item-linkedin" src="img/linkedin.svg"></a>
     </nav>
   </header>
-  
-  <div class="banner-principal">
-    <img class="banner-principal-imagem" src="/img/banner_about-me.png">
-  </div>
 
-  <main class="main-aboutme">
+  <main>
 
     <section>
-    <div class="custom-container-aboutme">
+    <div class="aboutme-section fade-in">
       
         <div class="row justify-content-center">
-  
-          <div class="col-sm12 col-md-6 col-lg-4"> 
-              <img class="img-fluid mb-4 rounded" src="/img/perfil.jpg" alt="Sabrina">
+          <div class="col-sm-12 col-md-6 col-lg-4"> 
+              <img class="img-fluid" src="/img/perfil.jpg" alt="Sabrina">
           </div>
-  
-          <div class="container-texto-aboutme col-sm12 col-md-6 col-lg-4 d-flex align-items-center"> 
-            <p class="texto-container">
-                Hi, I'm <strong>Sabrina.</strong> I started my career as a UI Designer in 2017. Over time, I developed a strong interest in web development, particularly in front-end technologies. I've been learning JavaScript and React to enhance my skills and transition into a web developer role.
-            </p>       
+
+           <div class="aboutme-titulo col-sm-12 col-md-6 col-lg-4 d-flex align-items-center"> 
+            UI Designer &<br>
+            Developer       
+        </div>
+    </section>
+
+    <section>
+      <div class="aboutme-experience fade-in">
+        <p>
+          Hi, I'm Sabrina. My love for design started way back in the days of flogs and blogs around 2005, when I spent hours customizing layouts just for fun. It was my creative escape, and I never imagined it would turn into a career. Fast forward to 2017, I finally decided to take the leap and started working professionally as a UI Designer.<br>
+          <br>
+          Since then, I’ve been all about creating designs that don’t just look good but also work great. A few years in, I got curious about how those designs were actually built, and that’s how I got into web development. Now, I’m diving deep into JavaScript and React, combining my design background with coding to bring ideas to life on the web.
+        </p>
+    
+        <div class="icons-skills mt-4">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" aria-label="HTML">
+            <i class="fa-brands fa-html5"></i>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" aria-label="CSS">
+            <i class="fa-brands fa-css3-alt"></i>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" aria-label="JavaScript">
+            <i class="fa-brands fa-js-square"></i>
+          </a>
+          <a href="https://react.dev/" aria-label="React">
+            <i class="fa-brands fa-react"></i>
+          </a>
+          <a href="https://getbootstrap.com/" aria-label="Bootstrap">
+            <i class="fa-brands fa-bootstrap"></i>
+          </a>
+          <a href="https://git-scm.com/" aria-label="Git">
+            <i class="fa-brands fa-git-alt"></i>
+          </a>
+          <a href="https://www.figma.com/" aria-label="Figma">
+            <i class="fa-brands fa-figma"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+
     </div>
+    </section>
+
+    <section>
+      <div class="contact-section">
+        <h2 class="contact-titulo">Let's work together!</h2>
+        <div class="icons mt-4">
+          <a href="https://github.com/imsabrinna" aria-label="GitHub">
+            <i class="fa-brands fa-github-alt"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sabrina-oliveira-a64b6391/" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </section>
           
   </main>
-
-  <!-- Ajustar gap entre Main e Footer -->
 
 <footer>
     <h6 class="footer-sign"> Developed with <strong>love</strong> by Sabrina</h6>
@@ -57,6 +103,8 @@
 
 <!-- Javascript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="javascript.js"></script>
 
 </body>
 </html>
